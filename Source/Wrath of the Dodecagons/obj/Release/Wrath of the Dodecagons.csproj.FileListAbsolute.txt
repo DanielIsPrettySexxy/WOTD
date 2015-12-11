@@ -1,0 +1,28 @@
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Wrath of the Dodecagons.exe.config
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\debug_font.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\Options.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\Play.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\Quit.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\Scores.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\Splash Logo.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\Title.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\White Logo.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\Bullet.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\line.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\SpriteSampleSheet(Intense Color).xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\tower_body.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Content\tower_turrent.xnb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Wrath of the Dodecagons.exe.manifest
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Wrath of the Dodecagons.application
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Wrath of the Dodecagons.exe
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Wrath of the Dodecagons.pdb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\MonoGame.Framework.dll
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\OpenTK.dll
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\Tao.Sdl.dll
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\MonoGame.Framework.pdb
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\bin\Release\MonoGame.Framework.xml
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\obj\Release\Wrath of the Dodecagons.csprojResolveAssemblyReference.cache
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\obj\Release\Wrath of the Dodecagons.exe.manifest
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\obj\Release\Wrath of the Dodecagons.application
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\obj\Release\Wrath of the Dodecagons.exe
+C:\Users\daniel.waterston\Desktop\Perforce\2014_Cohort\1st_Year\Groups\Grey\Gamma\Source\Wrath of the Dodecagons\obj\Release\Wrath of the Dodecagons.pdb

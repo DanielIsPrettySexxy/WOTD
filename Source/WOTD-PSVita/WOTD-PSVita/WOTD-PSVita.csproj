@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69723B78-90FC-44A0-A0B0-62C8A9D5DDF3}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WOTDPSVita</RootNamespace>
+    <AssemblyName>WOTD-PSVita</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;PSM;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <DefineConstants>PSM;</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.PlayStation.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <PsmMetadata Include="app.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\MonoGame-develop\MonoGame.Framework\MonoGame.Framework.PSMobile.csproj">
+      <Project>{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}</Project>
+      <Name>MonoGame.Framework.PSMobile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Wrath of the Dodecagons\Collision.cs">
+      <Link>Collision.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\EnemyManager.cs">
+      <Link>EnemyManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\Game1.cs">
+      <Link>Game1.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\GameObjects\Bullet.cs">
+      <Link>GameObjects\Bullet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\GameObjects\Enemy.cs">
+      <Link>GameObjects\Enemy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\GameObjects\Entity.cs">
+      <Link>GameObjects\Entity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\GameObjects\Tower.cs">
+      <Link>GameObjects\Tower.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\ParticleManager\Particle.cs">
+      <Link>ParticleManager\Particle.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\ParticleManager\ParticleEngine.cs">
+      <Link>ParticleManager\ParticleEngine.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\GameStateManager.cs">
+      <Link>States\GameStateManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\Game\Playing.cs">
+      <Link>States\Game\Playing.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\Game\Grid System\Cell.cs">
+      <Link>States\Game\Grid System\Cell.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\Game\Grid System\GameGrid.cs">
+      <Link>States\Game\Grid System\GameGrid.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\Menu\Menu.cs">
+      <Link>States\Menu\Menu.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\Pause\Pause.cs">
+      <Link>States\Pause\Pause.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\Save Load\Scores.cs">
+      <Link>States\Save Load\Scores.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\Splash\Splash.cs">
+      <Link>States\Splash\Splash.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\GUI.cs">
+      <Link>GUI.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\Line Code\LineDrawer.cs">
+      <Link>Line Code\LineDrawer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\Line Code\Shape.cs">
+      <Link>Line Code\Shape.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Wrath of the Dodecagons\States\Options\Options.cs">
+      <Link>States\Options\Options.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="GameObjects\" />
+    <Folder Include="ParticleManager\" />
+    <Folder Include="States\" />
+    <Folder Include="Line Code\" />
+    <Folder Include="States\Options\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\Bullet.xnb">
+      <Link>Content\Bullet.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\debug_font.xnb">
+      <Link>Content\debug_font.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\line.xnb">
+      <Link>Content\line.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\Options.xnb">
+      <Link>Content\Options.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\Play.xnb">
+      <Link>Content\Play.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\Quit.xnb">
+      <Link>Content\Quit.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\Scores.xnb">
+      <Link>Content\Scores.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\Splash Logo.xnb">
+      <Link>Content\Splash Logo.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\Title.xnb">
+      <Link>Content\Title.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\tower_body.xnb">
+      <Link>Content\tower_body.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\tower_turrent.xnb">
+      <Link>Content\tower_turrent.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\White Logo.xnb">
+      <Link>Content\White Logo.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </Content>
+    <Content Include="..\..\Wrath of the Dodecagons\Content\SpriteSampleSheet%28Intense Color%29.xnb">
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+      <Link>Content\SpriteSampleSheet%2525252528Intense Color%2525252529.xnb</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Wrath of the Dodecagons\Content\BinaryColor">
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-TargetDirectoryId>ProgramFilesRoot</DeployService-TargetDirectoryId>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+      <Link>Content\BinaryColor</Link>
+    </None>
+  </ItemGroup>
+</Project>
